@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "srx-get-security-zones"
+name = "srx-configure-interfaces"
 version = "0.1.0"
-description = "Uses Scrapli to retrieve security zones"
+description = "Uses Scrapli to configure interfaces on a SRX firewall"
 authors = ["Calvin Remsburg <cremsburg@protonmail.com>"]
 license = "Apache 2.0"
 

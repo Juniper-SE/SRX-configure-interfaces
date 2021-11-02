@@ -55,15 +55,12 @@ Execute either the synchronous or asynchronous script after you have updated the
 
     $ python app_async.py
     
-    $ ls -ls output 
-    total 8
-    4 -rw-rw-r-- 1 cdot cdot 78 Oct 27 10:19 192.168.105.137.yaml
-    4 -rw-rw-r-- 1 cdot cdot 78 Oct 27 10:19 192.168.105.146.yaml
+    192.168.105.137
+    <rpc-reply xmlns:junos="http://xml.juniper.net/junos/21.2R0/junos" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="101">
+    <ok/>
+    </rpc-reply>
 
-    $ cat output/192.168.105.146.yaml 
-        - "DMZ_LAB"
-        - "HOME"
-        - "WAN"
-        - "trust"
-        - "untrust"
-        - "junos-host"
+    192.168.105.146
+    <rpc-reply xmlns:junos="http://xml.juniper.net/junos/21.2R0/junos" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="101">
+    <ok/>
+    </rpc-reply>
